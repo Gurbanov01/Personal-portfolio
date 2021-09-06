@@ -1,0 +1,86 @@
+.skills__item {
+	width: 160px;
+	height: 160px;
+	position: relative;
+}
+
+.outer {
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+.inner {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#number1 {
+	font-weight: 600;
+	color: #c63e04;
+}
+#number2 {
+	font-weight: 600;
+	color: #00BFFC;
+}
+#number3 {
+	font-weight: 600;
+	color: #DFE301;
+}
+#number4 {
+	font-weight: 600;
+	color: #009F36;
+}
+
+#html-circle-1 {
+	fill: none;
+	stroke: #c63e04; /*url(#GradientColor)*/
+	stroke-width: 5px;
+	stroke-dasharray: 550;
+	stroke-dashoffset: 550;
+	animation: anim 2s linear forwards;
+}
+
+#html-circle-2 {
+	fill: none;
+	stroke: #00BFFC; /*url(#GradientColor)*/
+	stroke-width: 5px;
+	stroke-dasharray: 550;
+	stroke-dashoffset: 550;
+	animation: anim 2s linear forwards;
+}
+
+#html-circle-3 {
+	fill: none;
+	stroke: #DFE301; /*url(#GradientColor)*/
+	stroke-width: 5px;
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	animation: anim 2s linear forwards;
+}
+
+#html-circle-4 {
+	fill: none;
+	stroke: #009F36; /*url(#GradientColor)*/
+	stroke-width: 5px;
+	stroke-dasharray: 525;
+	stroke-dashoffset: 525;
+	animation: anim 2s linear forwards;
+}
+
+.html-circle-skill {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+@keyframes anim {
+	100% {
+		stroke-dashoffset: 165;
+	}
+}

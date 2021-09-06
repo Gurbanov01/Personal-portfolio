@@ -1,0 +1,55 @@
+.header {
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 35px 0;
+	}
+
+	&__link_active {
+		position: relative;
+		&::after {
+			position: absolute;
+			content: "";
+			width: 60px;
+			height: 15px;
+			background: #379fff;
+			border-radius: 50px;
+			left: -6px;
+			bottom: -2px;
+			z-index: -1;
+		}
+	}
+
+	&__link {
+		margin-right: 40px;
+		font-weight: medium;
+	}
+
+	&__intro {
+		margin-top: 140px;
+		margin-bottom: 220px;
+		text-align: center;
+	}
+
+	&__overtitle {
+		font-weight: 500;
+		font-size: 24px;
+		opacity: 80%;
+
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 48px;
+		text-transform: uppercase;
+
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	&__subtitle {
+		font-weight: 600;
+		font-size: 24px;
+	}
+}
