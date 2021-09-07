@@ -6,27 +6,6 @@
 		padding: 100px 0;
 	}
 
-	&__text {
-		margin-top: 45px;
-		display: flex;
-		justify-content: center;
-	}
-
-	&__name {
-		margin-right: 30px;
-		font-weight: bold;
-		line-height: 22px;
-		opacity: 80%;
-
-		&_active {
-			opacity: 100%;
-		}
-
-		&:last-child {
-			margin-right: 0;
-		}
-	}
-
 	&__inner {
 		display: flex;
 		justify-content: space-between;
@@ -61,5 +40,26 @@
 		bottom: -60px;
 		background: linear-gradient(rgba(55, 159, 255, 1), rgba(0, 0, 0, 0.1));
 		z-index: 10;
+	}
+}
+
+.subtitle {
+	margin-top: 45px;
+	display: flex;
+	justify-content: center;
+
+	&__name {
+		margin-right: 30px;
+		font-weight: bold;
+		line-height: 22px;
+		opacity: 80%;
+
+		&_active {
+			opacity: 100%;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
 	}
 }
